@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<title>Index</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button2:hover {.
+
+  box-shadow: 0 30px 50px 0 rgba(0,0,0,0.24),0 30px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 25px;
+}
+nav {
+  float: left;
+  width: 18%;
+  height: 300px; /* only for demonstration, should be removed */
+  padding: 50px;
+}
+article {
+  float: left;
+  padding: 58px;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+
+<body>
+
+</body>
+<section>
+  <nav>
+<button class="button button2" href="#">Fill Table</button>
+<br>
+<button class="button button2" href="#">Fill Dialog</button>
+  </nav>
+  <article>
+   <textarea name="fname" rows="10" cols="30" wrap="hard" placeholder="Type Here!">
+</textarea>
+   </article>
+</section>
+</html>
